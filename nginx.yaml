@@ -26,4 +26,4 @@ spec:
   - name: nginx-service
     protocol: TCP
     port: 80
-    targetPort: http-web-svc
+    targetPort: 8080
