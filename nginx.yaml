@@ -23,7 +23,7 @@ spec:
   selector:
     app.kubernetes.io/name: proxy
   ports:
-  - name: NodePort
+  - name: nginx-service
     protocol: TCP
     port: 80
     targetPort: http-web-svc
